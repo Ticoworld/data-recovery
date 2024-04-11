@@ -6,7 +6,7 @@ const About = () => {
         <div className="about-showcase bg-gray-800 text-white py-20 px-8 xl:px-20">
         <h2 className="text-4xl lg:text-6xl font-bold text-center">About US</h2>         
         </div>
-        <div className="px-8">
+        <div className="px-8 py-5">
         <p className="mb-4">
         Welcome to DATA RECOVERY, where we specialize in providing cutting-edge data recovery solutions for individuals and businesses alike. With a passion for technology and a dedication to excellence, we have established ourselves as industry leaders in the field of data retrieval.
       </p>
