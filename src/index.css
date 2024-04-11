@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.showcase {
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.676)),url(/3825032.jpg);
+    height: 95vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+}
+
+
+.terms-showcase {
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.676)),url(/terms.jpg);
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+}
+
+.privacy-showcase {
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.676)),url(/privacyy.jpg);
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover; 
+}
+.serv-showcase{
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.676)),url(/service.jpg);
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover; 
+}
+.about-showcase{
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.676)),url(/about1.jpeg);
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover; 
+}
+.cont-showcase{
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.676)),url(/contact.jpg);
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover; 
+}
+
+body {
+    overflow: auto; /* Enable scrolling */
+  }
+  
+  body::-webkit-scrollbar {
+    width: 2px; /* Reduce scrollbar width */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Customize thumb color */
+  }
+  
